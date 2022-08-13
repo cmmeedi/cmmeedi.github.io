@@ -13,10 +13,13 @@
     />
 
     <!-- This is the Browser CSS Reset -->
-    <link rel="stylesheet" href="/browserReset.css" />
+    <link
+      rel="stylesheet"
+      href="/cmmeedi.github.io/cmmeedi.github.io/styles/browserReset.css"
+    />
 
     <!-- This is the custome stylesheet -->
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
 
     <title>HomePage</title>
   </head>
