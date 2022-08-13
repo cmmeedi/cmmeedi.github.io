@@ -1,0 +1,67 @@
+/* 
+
+All pages styles 
+
+*/
+
+#navigationHeader{
+    background-color: darkblue !important;
+}
+#navigationHeader a{
+    color: white;
+}
+#navigationHeader a:hover{
+    color: pink;
+}
+
+/*
+
+END
+
+*/
+
+
+/* --------------------------------------------------------- */
+
+
+/* 
+
+    Homepage styles 
+
+*/
+#homeBody{
+    background: white url("/Assets/forestry.jpg") no-repeat  center;
+    background-size: cover;
+    height: 100vh;
+}
+
+#myName{
+    font-size: 8em;
+    background: -webkit-linear-gradient(rgb(255, 192, 203, 100%), rgb(0, 0, 255, 50%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+/*
+
+    END
+
+*/
+
+
+/* ---------------------------------------------------- */
+
+
+/* 
+    Professions Styles 
+*/
+
+
+/*
+
+END
+
+/*

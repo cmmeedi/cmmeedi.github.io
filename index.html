@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!--  		This is the CDN for Bootstrap 5.2 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+
+    <!-- This is the Browser CSS Reset -->
+    <link rel="stylesheet" href="/browserReset.css" />
+
+    <!-- This is the custome stylesheet -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>HomePage</title>
+  </head>
+  <body id="homeBody">
+    <header id="navigationHeader">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white" href="index.html">Chester Meedi</a>
+          <button
+            class="navbar-toggler text-white"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Projects</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="nameDiv" class="container-fluid">
+        <div class="row">
+          <div class="col-8 text-center p-5">
+            <h1 id="myName" class="display-1">Chester Meedi</h1>
+          </div>
+        </div>
+      </section>
+
+      <section id="professions" class="container-fluid bg-white">
+        <div class="row justify-content-center">
+          <div class="col-3">one</div>
+          <div class="col-3">two</div>
+          <div class="col-3">three</div>
+        </div>
+      </section>
+    </main>
+  </body>
+  <footer id="copyrightFooter" class="fixed-bottom text-end me-3 mb-2">
+    &copy Chester Meedi 2022
+  </footer>
+</html>
