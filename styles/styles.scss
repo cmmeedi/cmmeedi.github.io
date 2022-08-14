@@ -4,7 +4,23 @@ Variables
 
 */
 
-$DarkBlue: 03045e;
+$Blue1: #03045E;
+$Blue2: #023e8a;
+$Blue3: #0077b6;
+$Blue4: #0096c7;
+$Blue5: #00b4d8;
+$Blue6: #48cae4;
+$Blue7: #90e0ef;
+$Blue8: #ade8f4;
+$Blue9: #caf0f8;
+
+$Pink1: #ffe5ec;
+$Pink2: #ffc2d1;
+$Pink3: #ffb3c6;
+$Pink4: #ff8fab;
+$Pink5: #fb6f92;
+
+
 
 /* 
 
@@ -13,13 +29,24 @@ All pages styles
 */
 
 #navigationHeader{
-    background-color: $DarkBlue !important;
+    background-color: $Blue1;
+
 }
-#navigationHeader a{
-    color: white;
+#dropButton{
+    color: $Pink5;
+    border-color: $Pink5;
+    stroke: $Pink4;
+}
+#navigationHeader a:link{
+    color: $Pink1;
+    transition: font-size .8s, color .8s;
 }
 #navigationHeader a:hover{
-    color: pink;
+    color: $Pink4 !important;
+    font-size: 2rem;
+}
+#navigationHeader a:visited{
+    color: $Pink2;
 }
 
 /*
@@ -51,7 +78,7 @@ END
 }
 
 #professions{
-    background-color: lightblue !important;
+    background-color: $Blue3 !important;
 }
 
 
