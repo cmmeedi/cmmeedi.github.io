@@ -14,11 +14,11 @@ $Blue7: #90e0ef;
 $Blue8: #ade8f4;
 $Blue9: #caf0f8;
 
-$Pink1: #ffe5ec;
+$Pink1: rgb(255, 229, 236);
 $Pink2: #ffc2d1;
 $Pink3: #ffb3c6;
 $Pink4: #ff8fab;
-$Pink5: #fb6f92;
+$Pink5: rgb(251, 111, 146);
 
 
 
@@ -30,13 +30,29 @@ All pages styles
 
 #navigationHeader{
     background-color: $Blue1;
+    opacity: 50%;
+}
+         
+.custom-toggler.navbar-toggler {
+    border-color: $Pink1;
+    transition: border-color .8s
+}
 
-}
-#dropButton{
-    color: $Pink5;
+.custom-toggler.navbar-toggler:hover {
     border-color: $Pink5;
-    stroke: $Pink4;
 }
+
+    
+.custom-toggler .navbar-toggler-icon {
+    background-image: url(
+    "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 229, 236, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    transition: background-image .8s;
+}
+.custom-toggler .navbar-toggler-icon:hover {
+    background-image: url(
+    "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(251, 111, 146, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
 #navigationHeader a:link{
     color: $Pink1;
     transition: font-size .8s, color .8s;
@@ -64,8 +80,13 @@ END
     Homepage styles 
 
 */
+#nameDiv{
+    height: 900px;
+}
+
+
 #homeBody{
-    background: white url("/cmmeedi.github.io/cmmeedi.github.io/Assets/forestry.jpg") no-repeat  center;
+    background: white url("/cmmeedi.github.io/cmmeedi.github.io/Assets/forestry.jpg") no-repeat  fixed;
     background-size: cover;
     height: 100vh;
 }
@@ -78,7 +99,7 @@ END
 }
 
 #professions{
-    background-color: $Blue3 !important;
+    background-color: rgb(0, 119, 182, 50%) !important;
 }
 
 

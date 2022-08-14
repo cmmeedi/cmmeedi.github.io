@@ -45,7 +45,7 @@
           <a class="navbar-brand" href="#">Chester Meedi</a>
           <button
             id="dropButton"
-            class="navbar-toggler"
+            class="navbar-toggler custom-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNav"
@@ -53,7 +53,7 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span id="burger" class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
@@ -90,363 +90,57 @@
       </section>
 
       <section id="professions" class="container-fluid bg-white">
+        
+        
+        
         <div class="row justify-content-center professions">
+
+
+
           <div class="card col-sm-10 col-lg-3 card m-3 rounded-3">
             <img
-              src="/cmmeedi.github.io/cmmeedi.github.io/Assets/Kitten-Placeholder.jpg"
+              src="/cmmeedi.github.io/cmmeedi.github.io/Assets/front-end-developer.jpg"
               alt=""
               class="card-img-top p-3"
             />
-
             <div class="card-body">
               <h5 class="card-title display-3 text-end">Front-End</h5>
               <div class="row justify-content-around">
-                <div class="col-12">
-                  <div
-                    class="accordion accordion-flush"
-                    id="accordionFlushExample"
-                  >
-                    <div class="accordion-item">
-                      <h2
-                        class="accordion-header ms-3 my-3"
-                        id="flush-headingOne"
-                      >
-                        HTML
-                      </h2>
-                    </div>
-
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="flush-headingOne">
-                        <button
-                          class="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapseOne"
-                          aria-expanded="false"
-                          aria-controls="flush-collapseOne"
-                        >
-                          CSS
-                        </button>
-                      </h2>
-                      <div
-                        id="flush-collapseOne"
-                        class="accordion-collapse collapse"
-                        aria-labelledby="flush-headingOne"
-                        data-bs-parent="#accordionFlushExample"
-                      >
-                        <div class="row accordion-body justify-content-around">
-                          <div class="col-5">
-                            <ul>
-                              <li>Bootstrap</li>
-                              <li>Bulma</li>
-                            </ul>
-                          </div>
-                          <div class="col-5">
-                            <ul>
-                              <li>SASS</li>
-                              <li>Responsive web Design</li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="flush-headingTwo">
-                        <button
-                          class="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapseTwo"
-                          aria-expanded="false"
-                          aria-controls="flush-collapseTwo"
-                        >
-                          JS
-                        </button>
-                      </h2>
-                      <div
-                        id="flush-collapseTwo"
-                        class="accordion-collapse collapse"
-                        aria-labelledby="flush-headingTwo"
-                        data-bs-parent="#accordionFlushExample"
-                      >
-                        <div class="row accordion-body justify-content-around">
-                          <div class="col-5">
-                            <ul>
-                              <li>DHTML</li>
-                              <li>DOM Modification</li>
-                            </ul>
-                          </div>
-                          <div class="col-5">
-                            <ul>
-                              <li>Functional Programming</li>
-                              <li>Time Complexity</li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
 
           <div class="card col-sm-10 col-lg-3 card m-3 rounded-3">
             <img
-              src="/cmmeedi.github.io/cmmeedi.github.io/Assets/Kitten-Placeholder.jpg"
+              src="/cmmeedi.github.io/cmmeedi.github.io/Assets/back-end-developer.jpg"
               alt=""
               class="card-img-top p-3"
             />
-
             <div class="card-body">
               <h5 class="card-title display-3 text-end">Back-End</h5>
               <div class="row justify-content-around">
-                <div class="col-12">
-                  <div
-                    class="accordion accordion-flush"
-                    id="accordionFlushExample"
-                  >
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="flush-headingOne">
-                        <button
-                          class="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapseOne"
-                          aria-expanded="false"
-                          aria-controls="flush-collapseOne"
-                        >
-                          PHP
-                        </button>
-                      </h2>
-                      <div
-                        id="flush-collapseOne"
-                        class="accordion-collapse collapse"
-                        aria-labelledby="flush-headingOne"
-                        data-bs-parent="#accordionFlushExample"
-                      >
-                        <div class="row accordion-body justify-content-around">
-                          <div class="col-5">
-                            <ul>
-                              <li>Form Actions</li>
-                              <li>Requests</li>
-                            </ul>
-                          </div>
-                          <div class="col-5">
-                            <ul>
-                              <li>Authentication</li>
-                              <li>Server Calls</li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="flush-heading">
-                        <button
-                          class="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapseTwo"
-                          aria-expanded="false"
-                          aria-controls="flush-collapseTwo"
-                        >
-                          JS
-                        </button>
-                      </h2>
-                      <div
-                        id="flush-collapseTwo"
-                        class="accordion-collapse collapse"
-                        aria-labelledby="flush-headingTwo"
-                        data-bs-parent="#accordionFlushExample"
-                      >
-                        <div class="row accordion-body justify-content-around">
-                          <div class="col-5">
-                            <ul>
-                              <li>Dynamic HTML</li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="flush-headingThre">
-                        <button
-                          class="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapseThre"
-                          aria-expanded="false"
-                          aria-controls="flush-collapseThre"
-                        >
-                          Java
-                        </button>
-                      </h2>
-                      <div
-                        id="flush-collapseThre"
-                        class="accordion-collapse collapse"
-                        aria-labelledby="flush-headingThre"
-                        data-bs-parent="#accordionFlushExample"
-                      >
-                        <div class="row accordion-body justify-content-around">
-
-                              <div class="col-5">
-                                <ul>
-                                  <li>Basic Concepts</li>
-                                  <li>Advanced Concepts</li>
-                                </ul>
-                              </div>
-                              <div class="col-5">
-                                <ul>
-                                  <li>Server Calls</li>
-                                  <li>Swing</li>
-                                </ul>
-                              </div>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
+          </div>
 
-
-
-            
-            <div class="card col-sm-10 col-lg-3 card m-3 rounded-3">
-              <img
-              src="/cmmeedi.github.io/cmmeedi.github.io/Assets/Kitten-Placeholder.jpg"
+          <div class="card col-sm-10 col-lg-3 card m-3 rounded-3">
+            <img
+              src="/cmmeedi.github.io/cmmeedi.github.io/Assets/database-management.jpg"
               alt=""
               class="card-img-top p-3"
             />
             <div class="card-body">
               <h5 class="card-title display-3 text-end">Database Management</h5>
               <div class="row justify-content-around">
-                <div class="col-12">
-                  <div
-                    class="accordion accordion-flush"
-                    id="accordionFlushExample"
-                  >
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="flush-headingOne">
-                        <button
-                          class="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapseOne"
-                          aria-expanded="false"
-                          aria-controls="flush-collapseOne"
-                        >
-                          SQL
-                        </button>
-                      </h2>
-                      <div
-                        id="flush-collapseOne"
-                        class="accordion-collapse collapse"
-                        aria-labelledby="flush-headingOne"
-                        data-bs-parent="#accordionFlushExample"
-                      >
-                        <div class="row accordion-body justify-content-around">
-                          <div class="col-5">
-                            <ul>
-                              <li>Form Actions</li>
-                              <li>Requests</li>
-                            </ul>
-                          </div>
-                          <div class="col-5">
-                            <ul>
-                              <li>Authentication</li>
-                              <li>Server Calls</li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="flush-heading">
-                        <button
-                          class="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapseTwo"
-                          aria-expanded="false"
-                          aria-controls="flush-collapseTwo"
-                        >
-                          JS
-                        </button>
-                      </h2>
-                      <div
-                        id="flush-collapseTwo"
-                        class="accordion-collapse collapse"
-                        aria-labelledby="flush-headingTwo"
-                        data-bs-parent="#accordionFlushExample"
-                      >
-                        <div class="row accordion-body justify-content-around">
-                          <div class="col-5">
-                            <ul>
-                              <li>Dynamic HTML</li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="flush-headingThre">
-                        <button
-                          class="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#flush-collapseThre"
-                          aria-expanded="false"
-                          aria-controls="flush-collapseThre"
-                        >
-                          Java
-                        </button>
-                      </h2>
-                      <div
-                        id="flush-collapseThre"
-                        class="accordion-collapse collapse"
-                        aria-labelledby="flush-headingThre"
-                        data-bs-parent="#accordionFlushExample"
-                      >
-                        <div class="row accordion-body justify-content-around">
-
-                              <div class="col-5">
-                                <ul>
-                                  <li>Basic Concepts</li>
-                                  <li>Advanced Concepts</li>
-                                </ul>
-                              </div>
-                              <div class="col-5">
-                                <ul>
-                                  <li>Server Calls</li>
-                                  <li>Swing</li>
-                                </ul>
-                              </div>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
-
-
           </div>
 
-
-          
-
         </div>
+
+
+        
+
       </section>
     </main>
   </body>
