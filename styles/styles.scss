@@ -4,20 +4,26 @@ Variables
 
 */
 
-$Blue1: #03045E;
-$Blue2: #023e8a;
-$Blue3: #0077b6;
-$Blue4: #0096c7;
-$Blue5: #00b4d8;
-$Blue6: #48cae4;
-$Blue7: #90e0ef;
-$Blue8: #ade8f4;
-$Blue9: #caf0f8;
+$Blue1: rgb(3, 4, 94);
+$Blue2: rgb(2, 62, 138);
+$Blue3: rgb(0, 119, 182);
+$Blue4: rgb(0, 150, 199);
+$Blue5: rgb(0, 180, 216);
+$Blue6: rgb(72, 202, 228);
+$Blue7: rgb(144, 224, 239);
+$Blue8: rgb(173, 232, 244);
+$Blue9: rgb(202, 240, 248);
+
+$Green1: rgb(34, 87, 122);
+$Green2: rgb(56, 163, 165);
+$Green3: rgb(87, 204, 153);
+$Green4: rgb(128, 237, 153);
+$Green5: rgb(199, 249, 204);
 
 $Pink1: rgb(255, 229, 236);
-$Pink2: #ffc2d1;
-$Pink3: #ffb3c6;
-$Pink4: #ff8fab;
+$Pink2: rgb(255, 194, 209);
+$Pink3: rgb(255, 179, 198);
+$Pink4: rgb(255, 143, 171);
 $Pink5: rgb(251, 111, 146);
 
 
@@ -27,6 +33,10 @@ $Pink5: rgb(251, 111, 146);
 All pages styles 
 
 */
+body{
+    max-width: 100%;
+    max-height: auto;
+}
 
 #navigationHeader{
     background-color: $Blue1;
@@ -93,7 +103,7 @@ END
 
 
 #homeBody{
-    background: white url("/cmmeedi.github.io/cmmeedi.github.io/Assets/forestry.jpg") no-repeat  fixed;
+    background: white url("/cmmeedi.github.io/cmmeedi.github.io/Assets/forestry.jpg") no-repeat fixed;
     background-size: cover;
     height: 100vh;
 }
@@ -109,5 +119,8 @@ END
     background-color: rgb(0, 119, 182, 50%) !important;
 }
 
-
+footer{
+    color: $Green3;
+    background-color: rgb(34, 87, 122, 50%);
+}
 
