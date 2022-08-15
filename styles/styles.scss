@@ -84,6 +84,13 @@ END
     height: 900px;
 }
 
+#innerName{
+    background-color: rgba(202, 240, 248, 50%);
+}
+#innerName p{
+    color: $Blue2 !important;
+}
+
 
 #homeBody{
     background: white url("/cmmeedi.github.io/cmmeedi.github.io/Assets/forestry.jpg") no-repeat  fixed;
